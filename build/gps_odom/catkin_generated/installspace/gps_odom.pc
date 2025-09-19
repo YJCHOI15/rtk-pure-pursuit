@@ -1,0 +1,8 @@
+prefix=/home/yj/knu_roscore_ws/install
+
+Name: gps_odom
+Description: Description of gps_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,11 @@
+<launch>
+
+   <node pkg="waypoints_move" type="waypoints_move_node" name="waypoints_move_node" output="screen">
+       
+       
+       <!-- gps 상대 좌표 및 절대 좌표 사용 여부 false일 경우 gps datum이 topic 으로 필요함 -->
+       <param name="use_utm_absolute_mode"   value="false"/>
+       <param name="look_ahead"  type="double" value="2.0"/>
+   </node>
+
+</launch>

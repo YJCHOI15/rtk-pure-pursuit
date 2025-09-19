@@ -1,0 +1,8 @@
+prefix=/home/yj/knu_roscore_ws/devel
+
+Name: mgi2000_gps_msgs_package
+Description: Description of mgi2000_gps_msgs_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy sensor_msgs std_msgs nav_msgs tf

@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="waypoint_follower" type="dual_gps_pure_pursuit_node" name="pure_pursuit_node" output="screen">
+        <param name="wheelbase" value="1.0" />
+        
+        <param name="look_ahead_distance" value="4.0" />
+        
+        <param name="target_velocity" value="30.0" />
+        
+        <param name="waypoint_path" value="$(find waypoint_follower)/waypoints/track.csv" />
+    </node>
+</launch>

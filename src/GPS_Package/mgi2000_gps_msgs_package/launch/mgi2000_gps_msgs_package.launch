@@ -1,0 +1,13 @@
+<launch> 
+
+
+  <node name="mgi2000_gps_msgs_package_node" pkg="mgi2000_gps_msgs_package" type="mgi2000_gps_msgs_package_node" output="screen" > 
+     <param name="use_imu_yaw_angle" value="0"/>
+     <param name="imu_yaw_offset"   value="10"/>
+     <param name="mgi2000_yaw_offset"   value="90.0"/>
+      
+      <!--<remap from="/gps/fix1"     to="/ublox_gps/fix" /> --> 
+      <!--  Rear no 2--> 
+      <!--<remap from="/gps/fix2"     to="/ublox_gps2/fix" /> -->
+  </node>
+</launch> 
